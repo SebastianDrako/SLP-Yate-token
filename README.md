@@ -1,7 +1,7 @@
 DO NOT RUN GENERATOR ONLINE
 
 UPDATE: use file slpofflineslpwif to generate private keys begining with "slp:<wif>". This ismeant to prevent non SLP enabled wallets from sweeping and burning tokens.
-  
+
 SLP Paper Wallet
 
 The SLP Paper Wallet Landing Page
@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=vqtSRXeKgxE
 A client-side Simple Ledger Protocol (SLP) wallet generator producing customizable paper wallets.
 SLP paper wallet generator was forked from the Bitcoin dot com paper wallet generator.
 
-The Bitcoin.com Paper Wallet is based on the open source [bitaddress.org repository.](https://github.com/pointbiz/bitaddress.org) Private Keys are generated client-side. For better security, download a local copy and run on an offline machine. 
+The Bitcoin.com Paper Wallet is based on the open source [bitaddress.org repository.](https://github.com/pointbiz/bitaddress.org) Private Keys are generated client-side. For better security, download a local copy and run on an offline machine.
 
 The bitaddress.org software is available under The MIT License (MIT) Copyright (c) 2011-2013 bitaddress.org
 
@@ -28,3 +28,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 UPDATE FROM BRIANXV: Image templates provided in the original version contain licensed images. Please change templates to your own design in the case you reproduce the software.
+
+The New art are under liscence Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) by Libre Yate Proyect
