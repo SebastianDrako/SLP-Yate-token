@@ -6936,13 +6936,13 @@ input[type=checkbox] { position: relative; z-index: 20; }
 			c0,0.8457031,0.6870117,1.5322266,1.5332031,1.5322266h36.7822266c0.8457031,0,1.5332031-0.6865234,1.5332031-1.5322266
 			C49.043457,51.2617188,48.355957,50.5751953,47.5102539,50.5751953"></path>
 		</svg>
-			<span>Simpleledger (SLP) Paper Wallet</span>
+			<span>SLP/Yate Billetera de papel</span>
 		</h1>
 	</header>
 	<div id="busyblock"></div>
 	<div id="main">
 		<div id="user-alert">
-			<h2>Move your mouse to make a Simpleledger Protocol (SLP) address</h2>
+			<h2>Mueve el raton para crear una direcion SLP/Yate</h2>
 		</div>
 		<div id="seedpoolarea"><textarea rows="16" cols="62" id="seedpool"></textarea></div>
 		<div id="testnet"></div>
@@ -7020,7 +7020,7 @@ and entering your simpleledger address.</p>
 			<style>
 			#stepOneSelectStyle {
 				display: none;
-				height: 929px;
+				height: 350px; /* tamaño original 929px  */
 				-webkit-transition: height 0.5s ease-in-out;
 			  -moz-transition: height 0.5s ease-in-out;
 			  -ms-transition: height 0.5s ease-in-out;
@@ -7187,13 +7187,13 @@ and entering your simpleledger address.</p>
 								Select and Continue
 							</div>
 							<div class="style-label">
-								SLP-paperwallet default
+								SLP-Yate
 							</div>
 							<div class="style-example">
 								<img src="img/2019-paper-wallet-dark-blue.png">
 							</div>
 						</div>
-						<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
+					 <!--	<div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
 							<div onclick="designConfirmed(this)" data-wallet-skin="inksaver" class="confirm-design">
 								Select and Continue
 							</div>
@@ -7240,14 +7240,14 @@ and entering your simpleledger address.</p>
 							<div class="style-example">
 								<img src="img/2019-paper-wallet-vietnam.png">
 							</div>
-						</div>
+						</div> -->
             <div onmouseover="toggleSelectedDesign(this)" onclick="toggleSelectedDesign(this)" class="style-col sc-right">
               <div onclick="designConfirmed(this)" data-wallet-skin="coloringbook" class="confirm-design">
                 Select and Continue
-              </div>
+              </div> 
               <div class="style-label">
               DIY
-              </div>
+              </div> 
               <div class="style-example">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M430.9 393.4l-119.6-119-58.1-57.9-13.4-13.3c15.9-40.6 7.1-88.2-26.6-121.7-35.4-35.3-88.5-42.3-131-22.9l76.1 75.8-53.1 52.9-77.9-75.8C6.2 153.8 15 206.7 50.4 242c33.6 33.5 81.4 42.3 122.1 26.5l14.4 14.3L81.7 388c-7.6 5.7-7.6 19 1.9 26.6l43.8 43.7c7.6 7.6 19.1 7.6 26.7 0l96.1-112.4 113.4 112.9c7.1 7.1 17.7 7.1 24.8 0l40.7-40.6c8.9-7.1 8.9-19.5 1.8-24.8z"/><path d="M494.4 216.6l-34.5-34.1c-2.2-2.2-5.8-2.2-8 0l-3.7 3.7-18.5-15.8s1.2-10-4.9-18.7c-6.2-8.7-16.1-19.8-23.2-26.9-7.1-7-34.1-33.9-69.7-51.4C296.2 55.7 271 48 241 48v29.7s28.7 16.6 45.1 29.7c16.3 13.1 16.8 59.5 16.8 59.5l-28.5 28.5 56.5 56.1 31-36.3c12.9-3.5 23.8-3.8 30.2-.3l13.7 13.3-9.6 9.5c-2.2 2.2-2.2 5.7 0 7.9l34.5 34.1c2.2 2.2 5.8 2.2 8 0l55.7-55.2c2.1-2.2 2.1-5.8 0-7.9z"/></svg>
               </div>
@@ -9153,8 +9153,8 @@ ninja.foreachSerialized = function (collection, whatToDo, onComplete) {
 		"brainalertpassphrasedoesnotmatch": "Las contraseñas no coinciden.",
 		"detailalertnotvalidprivatekey": "El texto que has introducido no es una clave privada válida",
 		"detailconfirmsha256": "El texto que has introducido no es una clave privada válida\n\n¿Quieres usar ese texto como si fuera una contraseña y generar una clave privada usando un hash SHA256 de tal contraseña?\n\nAviso: Es importante escoger una contraseña fuerte para evitar ataques de fuerza bruta a fin de adivinarla y robar tus bitcoins.",
-		"bip38alertincorrectpassphrase": "Incorrect passphrase for this encrypted private key.", //TODO: please translate
-		"bip38alertpassphraserequired": "Passphrase required for BIP38 key", //TODO: please translate
+		"bip38alertincorrectpassphrase": "Frase incorrecta para esta llave privada.", 
+		"bip38alertpassphraserequired": "La frase requiere una llave BIP38",
 		"vanityinvalidinputcouldnotcombinekeys": "Entrada no válida. No se puede combinar llaves.",
 		"vanityalertinvalidinputpublickeysmatch": "Entrada no válida. La clave pública de ambos coincidan entradas. Debe introducir dos claves diferentes.",
 		"vanityalertinvalidinputcannotmultiple": "Entrada no válida. No se puede multiplicar dos claves públicas. Seleccione 'Añadir' para agregar dos claves públicas para obtener una dirección bitcoin.",
@@ -9165,13 +9165,13 @@ ninja.foreachSerialized = function (collection, whatToDo, onComplete) {
 		"tagline": "Generador de carteras Bitcoin de código abierto en lado de cliente con Javascript",
 		"generatelabelbitcoinaddress": "Generando dirección Bitcoin...",
 		"generatelabelmovemouse": "Mueve un poco el ratón para crear entropía...",
-		"generatelabelkeypress": "OR type some random characters into this textbox", //TODO: please translate
+		"generatelabelkeypress": "O teclea algunos caracteres aleatorios en esta casilla de texto", 
 		"singlewallet": "Una sola cartera",
 		"paperwallet": "Cartera en papel",
 		"bulkwallet": "Direcciones en masa",
 		"brainwallet": "Cartera mental",
 		"vanitywallet": "Cartera personalizada",
-		"splitwallet": "Split Wallet", //TODO: please translate
+		"splitwallet": "Cartera dividida", 
 		"detailwallet": "Detalles de la cartera",
 
 		// footer html
